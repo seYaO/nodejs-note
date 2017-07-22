@@ -1,7 +1,7 @@
 ## fetch用法说明
 ---
 #### 语法说明
-```javascript
+```js
 fetch(url, options)
   .then(res => {
     // handlle HTTP response
