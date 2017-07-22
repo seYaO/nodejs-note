@@ -1,6 +1,10 @@
 ## [node-fetch](https://www.npmjs.com/package/node-fetch)
 
 ### Usage
+```bash
+  npm i node-fetch
+```
+
 ```js
 
   var fetch = require('node-fetch');
@@ -120,7 +124,7 @@
       var json = yield res.json();
       console.log(res);
   });
-  
+
 ```
 
 
