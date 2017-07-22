@@ -6,4 +6,4 @@
     * [2.1 简介](note/advanced/README.md)
 * [3. 包使用整理]()
     * [3.1 简介](note/package/README.md)
-
+    * [3.2 fetch](note/package/fetch.md)
