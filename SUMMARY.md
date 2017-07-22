@@ -7,3 +7,5 @@
 * [3. 包使用整理]()
     * [3.1 简介](note/package/README.md)
     * [3.2 fetch](note/package/fetch.md)
+    * [3.3 glob](note/package/glob.md)
+    * [3.4 shelljs](note/package/shelljs.md)
