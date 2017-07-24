@@ -6,5 +6,6 @@
   * [3.1 fetch](note/package/fetch.md)
   * [3.2 glob](note/package/glob.md)
   * [3.3 shelljs](note/package/shelljs.md)
-  * [3.4 koa](note/package/koa/README.md)
-    * [3.4.1 基本](note/package/koa/basis.md)
+  * [3.4 gulp](note/package/gulp.md)
+  * [3.5 koa](note/package/koa/README.md)
+    * [3.5.1 基本](note/package/koa/basis.md)
