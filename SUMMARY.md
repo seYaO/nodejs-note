@@ -9,3 +9,4 @@
   * [3.4 gulp](note/package/gulp.md)
   * [3.5 koa](note/package/koa/README.md)
     * [3.5.1 基本](note/package/koa/basis.md)
+  * [3.6 http-proxy-middleware](note/package/httpProxyMiddleware.md)
