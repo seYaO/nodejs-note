@@ -1,7 +1,8 @@
 ## 简介
 
 
-
+[gulp4.0](https://segmentfault.com/a/1190000002528547)
+[gulp插件](http://blog.csdn.net/gavid0124/article/details/53886285)
 
 #### gulp常用的插件
 - [run-sequence](https://www.npmjs.com/package/run-sequence) - 让gulp任务，可以相互独立，解除任务间的依赖，增强task复用
