@@ -158,3 +158,9 @@ var apiProxy = proxy(filter, {target: 'http://www.example.org'})
 
 
 ### [Options](https://www.npmjs.com/package/http-proxy-middleware#options)
+
+### 参考文档
+- [npmjs](https://www.npmjs.com/package/http-proxy-middleware)
+- [github](https://github.com/chimurai/http-proxy-middleware)
+- [csdn](http://blog.csdn.net/xmloveth/article/details/56847456)
+- [sf](https://segmentfault.com/a/1190000009821129)
