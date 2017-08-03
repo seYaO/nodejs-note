@@ -20,6 +20,7 @@
 
 ### 参考文档
 - [http://koajs.com/](http://koajs.com/)
+- [github](https://github.com/koajs/koa)
 - [koa2进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
 - [koa.cn](http://www.koacn.com/)
-- [github](https://github.com/guo-yu/koa-guide/tree/v2.x)
+- [github翻译](https://github.com/guo-yu/koa-guide/tree/v2.x)
