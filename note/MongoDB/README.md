@@ -24,6 +24,11 @@ use test    // 连接到一个指定的数据库
 
 ```
 
+链接远程mongodb
+```
+./mongo mongodb://192.168.0.20:27017/comment
+```
+
 
 ### 参考文档
 - [documentation](http://mongodb.github.io/node-mongodb-native/)
