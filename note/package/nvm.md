@@ -21,6 +21,11 @@ export NVM_DIR="$HOME/.nvm"
 ```bash
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
+或
+```bash
+source ~/.nvm/nvm.sh
+```
+激活，每次使用前都要激活
 
 ### linux
 ```bash
