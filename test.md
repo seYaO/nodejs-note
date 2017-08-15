@@ -12,3 +12,9 @@
 
 
 ssh -t root@12.23.34.45 -p 22
+
+
+
+## linux
+[Linux CentOS7 搭建node服务详细教程](https://segmentfault.com/a/1190000009393665)
+[CentOS7安装配置vsftp搭建FTP](https://segmentfault.com/a/1190000008161400)
