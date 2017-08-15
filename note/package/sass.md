@@ -17,6 +17,8 @@
 
 ### 变量
 - 声明变量
+
+  ![变量](img/variable.png)
 - 变量的引用
 - 普通变量和默认变量
 - 局部变量和全局变量
@@ -26,10 +28,51 @@
 
 ### 混合(mixin)
 - 混合声明和调用
+  - sass中使用`@mixin`声明混合，可以传递参数，参数名以`$`符号开始，多个参数以逗号分开，也可以给参数设置默认值、声明的`@mixin`通过`@include`来调用。
 - 无参数mixin
+```scss
+@mixin center-block{
+  margin: auto;
+}
+```
 - 有参数mixin
+```scss
+@mixin opacity($opacity:50) {
+  opacity: $opacity / 100;
+  filter: alpha(opacity=$opacity);
+}
+```
 - 多个参数mixin
+```scss
+@mixin horizontal-line($border:1px dashed #ccc, $padding:10px){
+    border-bottom:$border;
+    padding-top:$padding;
+    padding-bottom:$padding;  
+}
+```
 - 多组值参数mixin
+  - 如果一个参数可以有多组值，如`box-shadow` `transition`等，那么参数则需要在变量后加三个点`...`表示，如`$variables...`
+  ```scss
+  @mixin box-shadow($shadow...){
+      -webkit-border-radius: $shadow;
+      box-shadow: $shadow;
+  }
+  ```
+  调用
+  ```scss
+  .box{
+      border: 1px solid #ccc;
+      @include box-shadow(0 2px 2px rgba(0,0,0,.3),0 3px 3px rgba(0,0,0,.3),0 4px 4px rgba(0,0,0,.3));
+  }
+  ```
+  结果
+  ```scss
+  .box{
+    border:1px solid #ccc;
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0,.3),0 3px 3px rgba(0,0,0,.3),0 4px 4px rgba(0,0,0,.3);
+    box-shadow:0 2px 2px rgba(0,0,0,.3),0 3px 3px rgba(0,0,0,.3),0 4px 4px rgba(0,0,0,.3);
+  }
+  ```
 
 
 ### 继承

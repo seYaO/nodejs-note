@@ -8,7 +8,6 @@
 - [vue2+node+express+mongodb 初学上手小项目](http://cnodejs.org/topic/597bfb0a68aa87c774e5ed37)
 - [用Node.JS+MongoDB搭建个人博客（成品展示）](http://cnodejs.org/topic/597b0434518c054e4fc0c208)
 - [【nodejs之我的开源module】 使用express搭建web服务器，代码即文档的实现。](http://cnodejs.org/topic/59812884518c054e4fc0c362)
-- [nodejs+mongodb做项目的详解(最新)](nodejs+mongodb做项目的详解(最新))
 - [Mongoose学习参考文档——基础篇](https://cnodejs.org/topic/504b4924e2b84515770103dd)
 
 
